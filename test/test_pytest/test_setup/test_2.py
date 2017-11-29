@@ -11,7 +11,7 @@ def test_db_access_delete(db_session):
     """Test db deletion"""
     print('######## running delete')
 
-
+@pytest.mark.non_db
 def test_non_db_action():
     """Test does not depend on DB"""
     print('######## running non db')
