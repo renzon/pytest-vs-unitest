@@ -5,7 +5,7 @@ Project to compare pytest and unitest Test Frameworks
 
 | Feature                    | Pytest                             | Unitest                          | Winner   |
 |----------------------------|------------------------------------|----------------------------------|----------|
-| Installation                | Third Party                       | Built in                         | Unittest |
+| Installation               | Third Party                        | Built in                         | Unittest |
 | Basic Infra                | Can be only a function             | Inheritance                      | Pytest   |
 | Basic Assertion            | assert bultin                      | TestCase instance methods        | Pytest   |
 | Flat is better than nested | Function (1 level)                 | Method (2 level)                 | Pytest   |
@@ -15,6 +15,7 @@ Project to compare pytest and unitest Test Frameworks
 | Test setup                 | fixture: module, session, function | Template Method: setup, tearDown | Pytest   |
 | Name Refactoring           | poor, because of name conventions  | rich, regular object orientation | Unittest |
 | Running Failed Tests       | built in (--lf, --ff)              | your own =,(                     | Pytest   |
+| Marks                      | built in                           | your own =,(                     | Pytest   |
 
 pytest cli
 
